@@ -21,6 +21,39 @@ const LpBanner = () => {
             </div>
 
             <img src={BannerImg} className="w-full -mt-9 lg:-mt-28 relative z-0" />
+
+            <div className="bg-[#00AEEF] px-10 py-5 text-white flex items-center justify-center">
+                <div className="flex items-center gap-32">
+
+                    <div className="text-center">
+                        <p className="text-4xl font-bold leading-none">64+</p>
+                        <p className="text-xs mt-1 text-gray-100">Happy Clients</p>
+                    </div>
+
+                    <div className="w-px h-12 bg-white/50"></div>
+
+                    <div className="text-center">
+                        <p className="text-4xl font-bold leading-none">83+</p>
+                        <p className="text-xs mt-1 text-gray-100">Satisfied Projects</p>
+                    </div>
+
+                    <div className="w-px h-12 bg-white/50"></div>
+
+                    <div className="text-center">
+                        <p className="text-4xl font-bold leading-none">5+</p>
+                        <p className="text-xs mt-1 text-gray-100">Years Experience</p>
+                    </div>
+
+                    <div className="w-px h-12 bg-white/50"></div>
+
+                    <div className="text-center">
+                        <p className="text-4xl font-bold leading-none">4.9/5</p>
+                        <p className="text-xs mt-1 text-gray-100">Client Rating</p>
+                    </div>
+
+                </div>
+            </div>
+
         </section>
 
     )
