@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Octarine', sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.navbar{
+  font-family: "Kollektif", sans-serif;
+}
+
+.menu{
+  font-family: "Kollektif", sans-serif;
+}
+
+button{
+  font-family: "Kollektif", sans-serif;
+}
+
+fieldset{
+  font-family: "Kollektif", sans-serif;
+}
