@@ -63,7 +63,7 @@ const Navbar = () => {
 
                 {/* Center: Menu Desktop */}
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1 font-regular text-lg text-[#232326] flex items-center gap-x-3">
+                    <ul className="menu menu-horizontal px-1 font-regular text-lg 2xl:text-xl text-[#232326] flex items-center gap-x-3">
                         {menuItems.map((item) => (
                             <li key={item.name}>
                                 <NavLink
@@ -84,7 +84,7 @@ const Navbar = () => {
                 {/* End: Button Premade */}
                 <div className="navbar-end">
                     <button
-                        className="btn bg-[#00AEEF] hover:bg-sky-600 text-[#FEF7E7] border border-[#00AEEF] text-[17px] rounded-md lg:px-8 lg:py-4"
+                        className="btn bg-[#00AEEF] hover:bg-sky-600 text-[#FEF7E7] border border-[#00AEEF] text-[17px] 2xl:text-xl rounded-md lg:px-8 lg:py-4"
                         onClick={() => setIsModalOpen(true)}
                     >
                         Premade

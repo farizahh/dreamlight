@@ -31,10 +31,10 @@ const LpPortofolio = () => {
                                 className="w-full h-full object-cover rounded-xl transition-transform duration-500 group-hover:scale-110"
                             />
                             <div className="absolute inset-0 bg-black/20 transition-all duration-500 group-hover:bg-black/40"></div>
-                            <h3 className="absolute bottom-4 left-4 text-white text-xl font-bold transition-all duration-500 group-hover:bottom-16">
+                            <h3 className="absolute bottom-4 left-4 text-white lg:text-xl 2xl:text-2xl font-bold transition-all duration-500 group-hover:bottom-16">
                                 {item.name}
                             </h3>
-                            <p className="absolute bottom-4 left-4 text-white text-sm opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+                            <p className="absolute bottom-4 left-4 text-white lg:text-sm 2xl:text-lg opacity-0 transition-opacity duration-500 group-hover:opacity-100">
                                 {item.description}
                             </p>
                         </div>
