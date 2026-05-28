@@ -83,7 +83,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="py-6 text-center text-base font-sans text-white">© 2025 dreamlight. All rights reserved.</div>
+                <div className="py-6 text-center text-base font-sans text-white">© 2026 PT. Dreamlight Creative Studio. All rights reserved</div>
             </footer>
         </section>
     )
