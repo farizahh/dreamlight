@@ -4,15 +4,15 @@ import Img from '../../assets/img/thumbnail.png'
 const AbIntro = () => {
     return (
         // <div className='w-full md:grid md:grid-cols-2 gap-3 lg:py-16 md:py-8 py-4 lg:px-20 md:px-10 px-5'>
-        <div className='w-full gap-3 lg:py-16 md:py-8 py-4 lg:px-20 md:px-10 px-5'>
-            <div className='pr-10'>
+        <div className='w-full gap-3 lg:py-16 md:py-8 py-4 lg:px-20 md:px-10 px-5 dark:bg-white dark:text-black'>
+            <div className='pr-10 text-black'>
                 {/* <p className='text-[#00AEEF] text-base lg:text-lg font-bold lg:mt-10 mt-3'>INTRODUCTION</p> */}
                 <div className='space-y-5'>
                     <div className='grid grid-cols-2'>
                         <div>
                             <img src={Img} alt="" className='w-[90%]' />
                         </div>
-                        <div className='font-sans space-y-5'>
+                        <div className='font-sans space-y-5 text-black'>
                             <h1 className='font-bold text-xl lg:text-3xl my-1 leading-normal'>Dreamlight Creative Studio</h1>
                             <p>A collective of Minecraft developers, builders, model artists, and render artists dedicated to transforming ideas into immersive and meticulously crafted digital environments.</p>
                             <p>Founded in 2020 in Jakarta, Indonesia, with over five years of international experience, Dreamlight Creative Studio has delivered high-fidelity Minecraft worlds for leading content creators, server networks, and established brands worldwide.</p>
@@ -20,9 +20,9 @@ const AbIntro = () => {
                         </div>
                     </div>
 
-                    <div>
+                    <div className='mt-16'>
                         <h1 className='font-bold text-xl lg:text-3xl my-1 mt-1 leading-normal text-center'>Core Values</h1>
-                        <div className='grid grid-cols-3 text-center font-sans'>
+                        <div className='grid grid-cols-3 text-center font-sans gap-6'>
                             <div className='space-y-3'>
                                 <h2 className='font-bold mb-5 text-xl'>Beyond Aesthetics</h2>
                                 <p>"We don't build pretty. We build purposeful.</p>

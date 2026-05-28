@@ -28,7 +28,7 @@ const LpPremade = () => {
 
     return (
         <section id='premade'>
-            <div className='w-full lg:py-16 md:py-8 py-8 lg:px-20 md:px-10 px-5'>
+            <div className='w-full lg:py-16 md:py-8 py-8 lg:px-20 md:px-10 px-5 dark:bg-white dark:text-black'>
                 <div className='text-center'>
                     <p className='text-[#00AEEF] text-base lg:text-lg font-bold mt-10 md:mt-0'>
                         PREMADE COLLECTION
@@ -40,7 +40,7 @@ const LpPremade = () => {
 
                 <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 mt-5'>
                     {premadeProducts.map((item) => (
-                        <div key={item.id} className="card bg-base-100 w-full shadow-sm border-[#E4E4E7] border hover:shadow-lg transition">
+                        <div key={item.id} className="card bg-base-100 w-full shadow-sm border-[#E4E4E7] border hover:shadow-lg transition dark:bg-white dark:text-black">
                             <figure>
                                 <img src={item.image} className='w-full p-3 rounded-xl' />
                             </figure>

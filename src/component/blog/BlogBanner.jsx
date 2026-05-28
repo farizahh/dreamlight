@@ -41,7 +41,7 @@ const BlogBanner = () => {
                         <Link
                             key={post.id}
                             to={`/blog/${post.id}`}
-                            className="card bg-base-100 w-full shadow-sm border border-[#E4E4E7] rounded-xl hover:shadow-lg transition"
+                            className="card bg-base-100 w-full shadow-sm border border-[#E4E4E7] dark:bg-white rounded-xl hover:shadow-lg transition"
                         >
                             <figure>
                                 <img src={post.img} className='w-full p-3 rounded-xl' alt={post.title} />

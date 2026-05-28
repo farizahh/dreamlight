@@ -84,7 +84,7 @@ const Navbar = () => {
                 {/* End: Button Premade */}
                 <div className="navbar-end">
                     <button
-                        className="btn bg-[#00AEEF] hover:bg-sky-600 text-[#FEF7E7] text-[17px] rounded-md lg:px-8 lg:py-4"
+                        className="btn bg-[#00AEEF] hover:bg-sky-600 text-[#FEF7E7] border border-[#00AEEF] text-[17px] rounded-md lg:px-8 lg:py-4"
                         onClick={() => setIsModalOpen(true)}
                     >
                         Premade

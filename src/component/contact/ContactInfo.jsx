@@ -31,7 +31,7 @@ const contactItems = [
 
 const ContactInfo = () => {
     return (
-        <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200">
+        <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 dark:bg-white dark:text-black">
             <h1 className="text-xl lg:text-3xl font-bold my-3">Don't hesitate to contact us</h1>
             <p className="text-sm text-gray-350 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis purus lobortis nisl blandit, sed dignissim mauris porttitor. Aliquam posuere massa ut enim fringilla iaculis. </p>
             <div className="grid lg:grid-cols-2 gap-4 my-8 ">
