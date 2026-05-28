@@ -4,7 +4,7 @@ import Img from '../../assets/img/thumbnail.png'
 const LpTentang = () => {
     return (
         <section id='tentang'>
-            <div className='w-full md:grid md:grid-cols-2 gap-3 lg:py-16 md:py-8 py-4 lg:px-20 md:px-10 px-5 dark:bg-white dark:text-black'>
+            <div className='w-full md:grid md:grid-cols-2 gap-3 lg:py-16 md:py-8 py-4 lg:px-20 md:px-10 px-5 dark:bg-white dark:text-black text-black'>
                 <div className='pr-10'>
                     <p className='text-[#00AEEF] text-base lg:text-lg font-bold lg:mt-1 mt-3 mb-3'>INTRODUCTION</p>
                     {/* <h1 className='font-bold text-xl lg:text-3xl my-1 leading-normal'>Designs Made With Intention</h1> */}

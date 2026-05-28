@@ -9,7 +9,7 @@ const ModalPremade = ({ isOpen, onClose }) => {
     return (
         <div
             className="fixed inset-0 flex items-center justify-center z-50
-                       bg-black/30 backdrop-blur-sm dark:bg-black/30 dark:text-black"
+                       bg-black/30 backdrop-blur-sm dark:bg-black/30 dark:text-black text-black"
             onClick={onClose} // klik overlay untuk tutup
         >
             <div

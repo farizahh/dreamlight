@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactForm = () => {
     return (
-        <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 dark:bg-white dark:text-black">
+        <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200 dark:bg-white dark:text-black text-black">
             <form>
                 <div className='grid grid-cols-2 gap-4'>
                     <fieldset className="fieldset">
