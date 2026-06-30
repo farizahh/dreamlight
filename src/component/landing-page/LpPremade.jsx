@@ -38,7 +38,7 @@ const LpPremade = () => {
                     </h1>
                 </div>
 
-                <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 mt-5'>
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-4 mt-5'>
                     {premadeProducts.map((item) => (
                         <div key={item.id} className="card bg-base-100 w-full shadow-sm border-[#E4E4E7] border hover:shadow-lg transition dark:bg-white dark:text-black">
                             <figure>

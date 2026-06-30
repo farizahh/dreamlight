@@ -15,7 +15,7 @@ const Footer = () => {
                             {/* <span className="self-center text-2xl font-semibold">Brand name</span> */}
                         </a>
                     </div>
-                    <div className="grid grid-cols-2 text-sm gap-x-6 gap-y-8 lg:w-2/3 sm:grid-cols-4 text-white font-sans">
+                    <div className="flex flex-col sm:flex-row justify-between gap-10 lg:w-2/3 text-white font-sans">
                         {/* <div className="space-y-3">
                             <h3 className="tracking-wide uppercase font-bold text-lg">Product</h3>
                             <ul className="space-y-1">
@@ -61,9 +61,9 @@ const Footer = () => {
                                 </li>
                             </ul>
                         </div> */}
-                        <div className="space-y-3 lg:ml-28 w-full">
+                        <div className="space-y-3 sm:text-right">
                             <div className="uppercase font-bold text-lg">Social media</div>
-                            <div className="flex">
+                            <div className="flex sm:justify-end">
                                 <a href="#" className="text-[#D0F0FF] p-2 rounded-full flex items-center justify-center text-2xl hover:bg-white hover:text-[#00AEEF] transition">
                                     <FaDiscord />
                                 </a>

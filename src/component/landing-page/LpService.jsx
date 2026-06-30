@@ -17,11 +17,11 @@ const LpService = () => {
                     <h1 className='font-bold text-lg lg:text-3xl my-1 text-[#232326]'>Helping you transform concepts into reality with services crafted for every vision and need.</h1>
                 </div>
 
-                <div className="grid lg:grid-cols-4 gap-4 mt-5">
+                <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-4 mt-5">
                     {services.map((item) => (
                         <div
                             key={item.id}
-                            className="relative w-full h-40 md:w-[253px] md:h-[200px] rounded-xl overflow-hidden cursor-pointer group"
+                            className="relative w-full h-40 lg:w-[253px] lg:h-[200px] rounded-xl overflow-hidden cursor-pointer group"
                         >
                             <img
                                 src={item.img}
