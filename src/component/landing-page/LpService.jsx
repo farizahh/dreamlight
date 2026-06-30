@@ -21,7 +21,7 @@ const LpService = () => {
                     {services.map((item) => (
                         <div
                             key={item.id}
-                            className="relative w-full h-40 lg:w-[253px] lg:h-[200px] rounded-xl overflow-hidden cursor-pointer group"
+                            className="relative w-full h-40 lg:w-[280px] 2xl:w-[420px] lg:h-[200px] rounded-xl overflow-hidden cursor-pointer group"
                         >
                             <img
                                 src={item.img}
