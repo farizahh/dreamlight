@@ -11,9 +11,9 @@ const LpContact = () => {
                     <span className='mt-1'>Let's Collaborate!!</span>
                 </p>
 
-                <h1 className='font-bold text-xl lg:text-3xl my-1 leading-normal mt-1'>Like what you see? Let’s build yours.</h1>
+                <h1 className='font-bold text-lg lg:text-3xl my-1 leading-normal mt-1'>Like what you see? Let’s build yours.</h1>
                 <p className='font-sans lg:text-lg text-sm text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper fringilla pellentesque.</p>
-                <Link to="/contact" className="mt-8 inline-flex items-center bg-[#00AEEF] hover:bg-sky-600 px-10 py-3 text-[#FEF7E7] text-lg font-semibold rounded-lg">
+                <Link to="/contact" className="mt-8 inline-flex items-center bg-[#00AEEF] hover:bg-sky-600 px-10 py-2 text-[#FEF7E7] text-lg font-semibold rounded-lg">
                     Contact Us
                 </Link>
             </div>

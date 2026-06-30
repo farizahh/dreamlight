@@ -11,13 +11,13 @@ const services = [
 const LpService = () => {
     return (
         <section id="service">
-            <div className="bg-[#FEF7E7] lg:py-16 md:py-8 py-8 lg:px-20 md:px-10 px-5 dark:text-black">
+            <div className="bg-[#FEF7E7] lg:py-16 md:py-8 py-4 lg:px-20 md:px-10 px-5 dark:text-black">
                 <div className='text-center'>
-                    <p className='text-[#00AEEF] text-lg lg:text-xl font-bold mt-10 md:mt-0'>OUR SERVICES</p>
-                    <h1 className='font-bold text-xl lg:text-3xl my-1 text-[#232326]'>Helping you transform concepts into reality with services crafted for every vision and need.</h1>
+                    <p className='text-[#00AEEF] text-base lg:text-xl font-bold mt-10 md:mt-0'>OUR SERVICES</p>
+                    <h1 className='font-bold text-lg lg:text-3xl my-1 text-[#232326]'>Helping you transform concepts into reality with services crafted for every vision and need.</h1>
                 </div>
 
-                <div className="hidden lg:grid grid-cols-4 gap-4 mt-5">
+                <div className="grid lg:grid-cols-4 gap-4 mt-5">
                     {services.map((item) => (
                         <div
                             key={item.id}

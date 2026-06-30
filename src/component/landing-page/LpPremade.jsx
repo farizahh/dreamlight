@@ -28,12 +28,12 @@ const LpPremade = () => {
 
     return (
         <section id='premade'>
-            <div className='w-full lg:py-16 md:py-8 py-8 lg:px-20 md:px-10 px-5 dark:bg-white dark:text-black'>
+            <div className='w-full lg:py-16 md:py-8 py-4 lg:px-20 md:px-10 px-5 dark:bg-white dark:text-black'>
                 <div className='text-center'>
                     <p className='text-[#00AEEF] text-base lg:text-lg font-bold mt-10 md:mt-0'>
                         PREMADE COLLECTION
                     </p>
-                    <h1 className='font-bold text-xl lg:text-3xl my-1 text-[#232326]'>
+                    <h1 className='font-bold text-lg lg:text-3xl my-1 text-[#232326]'>
                         Need a quick solution? Explore our library collection assets ready to use designs instantly, so you can focus on your community immediately.
                     </h1>
                 </div>
